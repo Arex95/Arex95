@@ -1,53 +1,48 @@
 # ¡Hola! Soy Arturo Serrano 👋 
 
-### 🚀 Frontend Developer | Vue.js & Nuxt.js Specialist
-
-> 💡 **"La arquitectura no es un costo, es la base de todo gran proyecto."**
-
-[cite_start]Soy un desarrollador con **5 años de experiencia** enfocado en crear interfaces modernas, altamente optimizadas y mantenibles. [cite_start]Mi enfoque combina la arquitectura técnica sólida con una visión de diseño centrada en el usuario[cite: 19, 21].
-
----
-
-### 🛠️ Mi Stack Tecnológico
-
-**Frontend & Frameworks**
-![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
-![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxtdotjs&logoColor=white)
-![TypeScript](https://img.shields.io/badge/typescript-%23007acc.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-
-**Backend & Tools**
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
-
----
-
-### 📈 Mis Estadísticas de GitHub
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Arex95&show_icons=true&theme=radical&hide_border=true" alt="Estadísticas de Arex95" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arex95&layout=compact&theme=radical&hide_border=true" alt="Lenguajes más usados" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00DC82&center=true&vCenter=true&width=600&lines=Frontend+Architect;Vue.js+%2B+Nuxt.js+Expert;E-commerce+Solution+Architect;%22La+arquitectura+es+la+base+de+todo+buen+proyecto%22" alt="Typing SVG" />
 </p>
 
 ---
 
-### 🌟 Lo que hago
-* [cite_start]**Arquitectura Modular:** Experto en soluciones escalables para aplicaciones SSR y SPA[cite: 20].
-* [cite_start]**Buenas Prácticas:** Implementación de principios **SOLID**, Composition API y TanStack Query[cite: 19].
-* [cite_start]**Full Stack Mindset:** Actualmente desarrollando aplicaciones integrales con Laravel y Nuxt en **Virtual Spot Iberia**[cite: 25, 27].
-* [cite_start]**UX/UI Design:** Mi experiencia previa como diseñador me permite prototipar en Figma con un enfoque técnico desde el inicio[cite: 21].
+### 🚀 Sobre mí
+Soy un desarrollador con **5 años de experiencia** especializado en el ecosistema de Vue y Nuxt. Mi enfoque principal es la **Arquitectura Frontend**, donde combino una estructura técnica sólida con una visión de diseño centrada en el usuario (UX/UI).
+
+> [!IMPORTANT]
+> 💡 **"La arquitectura no es un costo, es la base de todo gran proyecto."**
+> Actualmente me encuentro perfeccionando un sistema de **E-commerce de alto rendimiento**, aplicando patrones modulares y escalables.
 
 ---
 
-### 🧠 Habilidades Blandas
-* [cite_start]Liderazgo de equipos y realización de **Code Reviews**[cite: 22].
-* [cite_start]Pensamiento crítico y comunicación efectiva[cite: 11, 12].
-* [cite_start]Gestión del tiempo y trabajo en equipo[cite: 8, 9].
+### 🛠️ Tech Stack
+
+| Categoría | Tecnologías |
+| :--- | :--- |
+| **Frontend** | ![Vue.js](https://img.shields.io/badge/-Vue.js-35495e?style=flat-square&logo=vuedotjs&logoColor=4FC08D) ![Nuxt.js](https://img.shields.io/badge/-Nuxt.js-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/-TypeScript-007acc?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/-Tailwind-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white) |
+| **Backend** | ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white) |
+| **Diseño & Herramientas** | ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Vite](https://img.shields.io/badge/-Vite-646CFF?style=flat-square&logo=vite&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) |
+
+---
+
+### 🌟 En qué estoy enfocado
+- 🛒 **E-commerce Optimization:** Perfeccionando arquitecturas para flujos de compra complejos y optimización de carga.
+- 🏗️ **Arquitectura Modular:** Diseño de soluciones escalables para aplicaciones SSR/SPA utilizando **Domain-Driven Design (DDD)**.
+- ⚙️ **Clean Code:** Implementación de principios **SOLID**, Composition API y wrappers genéricos para gestión de estados.
+- 🎨 **Design Engineering:** Prototipado en Figma con una mentalidad de implementación técnica inmediata.
+
+---
+
+### 📈 GitHub Ecosystem
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Arex95&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Stats Arex95" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Arex95&layout=compact&theme=radical&hide_border=true" alt="Langs Arex95" height="180" />
+</p>
 
 ---
 
 ### 📫 Conectemos
-* [cite_start]**GitHub:** [github.com/Arex95](https://github.com/Arex95) 
-* [cite_start]**Email:** [arturorafaelonce@gmail.com](mailto:arturorafaelonce@gmail.com) [cite: 3]
-* [cite_start]**Ubicación:** México 🇲🇽 [cite: 4]
+<p align="left">
+<a href="mailto:arturorafaelonce@gmail.com"><img src="https://img.shields.io/badge/Email-arturorafaelonce%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/Arex95"><img src="https://img.shields.io/badge/GitHub-Arex95-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>

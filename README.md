@@ -1,4 +1,4 @@
-# Hi! I'm Arturo Serrano 👋 
+# Hi! I'm Arthur 👋 
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00DC82&center=true&vCenter=true&width=600&lines=Frontend+Architect;Vue.js+%2B+Nuxt.js+Expert;Creator+of+@arex95/vue-core;%22Simplicity+is+the+ultimate+sophistication%22" alt="Typing SVG" />

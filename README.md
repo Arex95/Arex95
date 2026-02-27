@@ -1,7 +1,7 @@
 # ¡Hola! Soy Arturo Serrano 👋 
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00DC82&center=true&vCenter=true&width=600&lines=Frontend+Architect;Vue.js+%2B+Nuxt.js+Expert;E-commerce+Solution+Architect;%22La+arquitectura+es+la+base+de+todo+buen+proyecto%22" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00DC82&center=true&vCenter=true&width=600&lines=Frontend+Architect;Vue.js+%2B+Nuxt.js+Expert;Creator+of+@arex95/vue-core;%22La+arquitectura+es+la+base+de+todo+buen+proyecto%22" alt="Typing SVG" />
 </p>
 
 ---
@@ -10,8 +10,20 @@
 Soy un desarrollador con **5 años de experiencia** especializado en el ecosistema de Vue y Nuxt. Mi enfoque principal es la **Arquitectura Frontend**, donde combino una estructura técnica sólida con una visión de diseño centrada en el usuario (UX/UI).
 
 > [!IMPORTANT]
-> 💡 **"La arquitectura no es un costo, es la base de todo gran proyecto."**
-> Actualmente me encuentro perfeccionando un sistema de **E-commerce de alto rendimiento**, aplicando patrones modulares y escalables.
+> **"La arquitectura es la base de todo buen proyecto."**
+> Actualmente enfocado en perfeccionar un sistema de **E-commerce de alto rendimiento** y evolucionar herramientas de desarrollo escalables.
+
+---
+
+### 📦 Open Source & Tools
+#### [**@arex95/vue-core**](https://www.npmjs.com/package/@arex95/vue-core)
+[![npm version](https://img.shields.io/npm/v/@arex95/vue-core.svg?style=flat-square&color=00DC82)](https://www.npmjs.com/package/@arex95/vue-core)
+[![npm downloads](https://img.shields.io/npm/dm/@arex95/vue-core.svg?style=flat-square&color=white)](https://www.npmjs.com/package/@arex95/vue-core)
+
+Es mi boilerplate insignia para aplicaciones Vue modernas. Diseñado para un **Fast Forward** real:
+- 🏗️ **Arquitectura Robusta:** Estructura modular lista para escalar.
+- ⚡ **Optimización:** Configuración de alto rendimiento para el mundo real.
+- 🛠️ **DX focused:** Pensado por y para desarrolladores que buscan calidad y velocidad.
 
 ---
 
@@ -25,10 +37,9 @@ Soy un desarrollador con **5 años de experiencia** especializado en el ecosiste
 
 ---
 
-### 🌟 En qué estoy enfocado
-- 🛒 **E-commerce Optimization:** Perfeccionando arquitecturas para flujos de compra complejos y optimización de carga.
-- 🏗️ **Arquitectura Modular:** Diseño de soluciones escalables para aplicaciones SSR/SPA utilizando **Domain-Driven Design (DDD)**.
-- ⚙️ **Clean Code:** Implementación de principios **SOLID**, Composition API y wrappers genéricos para gestión de estados.
+### 🌟 En qué estoy trabajando
+- 🛒 **E-commerce de Alto Impacto:** Perfeccionando arquitecturas para flujos de compra complejos y optimización crítica de performance.
+- ⚙️ **Clean Code & DDD:** Implementación de principios **SOLID** y wrappers genéricos para gestión de estados complejos.
 - 🎨 **Design Engineering:** Prototipado en Figma con una mentalidad de implementación técnica inmediata.
 
 ---

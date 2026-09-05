@@ -45,14 +45,19 @@ decided. It ships no components: the interface stays yours.
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/Arex95/atlas)
 [![license](https://img.shields.io/badge/license-MIT-555?style=flat-square)](https://github.com/Arex95/atlas/blob/main/LICENSE)
 
-PTY-backed terminals in the browser that AI agents can inhabit, with an MCP
-layer and a shared workspace so agents in different sessions can talk to each
-other. **The terminal is the unit of interaction; the agent is a layer that
-plugs in** — not the other way round.
+PTY-backed terminals in the browser that AI agents can inhabit. **The terminal is
+the unit of interaction; the agent is a layer that plugs in** — not the other way
+round.
 
-Built around the part that actually decides whether agent work is usable:
-explicit workflows, acceptance gates, and an LLM judge that has to agree before
-a step counts as done.
+- An **MCP server** (JSON-RPC 2.0) exposing 29 tools: projects, sessions, memory,
+  tasks, documents, skills, filesystem, global context.
+- **Project isolation** — an agent cannot read or write another project's
+  resources — with path-traversal protection on every filesystem endpoint.
+- **Shared context** — memory, skills and prompts an agent can reach across
+  sessions, so work survives the terminal that started it.
+
+The problem it exists for: an agent that can write anything is not useful. One
+that works inside boundaries, against shared context, and leaves a trail is.
 
 ---
 

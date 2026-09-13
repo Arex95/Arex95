@@ -75,16 +75,24 @@ leaves the machine until you point it at a server you run yourself.
 
 ### 🛠️ What I work with
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=rust,ts,vue,nuxtjs,react,nextjs,tailwind,vite,pinia,nodejs,nestjs,java,spring,php,laravel,postgres,sqlite,redis,mongodb,supabase,flutter,electron,tauri,vitest,docker,nginx,linux,gitlab,githubactions,bash,git,pnpm,markdown&perline=11" alt="Stack" />
+</p>
+
+A logo says a name was typed once. What follows is what the name is actually
+used for, and the parts that have no logo — usually the ones that decide how a
+system behaves.
+
 | | |
 | :--- | :--- |
-| **Frontend** | ![Vue](https://img.shields.io/badge/Vue-4FC08D?style=flat-square&logo=vuedotjs&logoColor=white) ![Nuxt](https://img.shields.io/badge/Nuxt-00DC82?style=flat-square&logo=nuxtdotjs&logoColor=white) ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black) ![Next.js](https://img.shields.io/badge/Next.js-000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white) |
-| **Client state** | ![TanStack Query](https://img.shields.io/badge/TanStack%20Query-FF4154?style=flat-square&logo=reactquery&logoColor=white) ![Pinia](https://img.shields.io/badge/Pinia-FFD859?style=flat-square&logo=pinia&logoColor=black) ![Zod](https://img.shields.io/badge/Zod-3E67B1?style=flat-square&logo=zod&logoColor=white) |
-| **Backend** | ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white) ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white) ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white) |
-| **Data** | ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![Redis](https://img.shields.io/badge/Redis-FF4438?style=flat-square&logo=redis&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white) |
-| **Systems** | ![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white) ![Tokio](https://img.shields.io/badge/Tokio-000000?style=flat-square&logo=rust&logoColor=white) |
-| **Cross-platform** | ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white) ![Electron](https://img.shields.io/badge/Electron-47848F?style=flat-square&logo=electron&logoColor=white) ![Tauri](https://img.shields.io/badge/Tauri-24C8DB?style=flat-square&logo=tauri&logoColor=black) |
-| **Testing** | ![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=flat-square&logo=vitest&logoColor=white) ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white) |
-| **Delivery** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![GitLab CI](https://img.shields.io/badge/GitLab%20CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) |
+| **Frontend** | Vue 3 and Nuxt, React and Next.js, TypeScript, Tailwind, Vite. **Pinia** for state that is genuinely shared, **TanStack Query** for state that belongs to the server and should not be copied into a store, **Zod** at the boundary. `xterm.js`, Cytoscape and Chart.js when the interface is a terminal, a graph or a chart rather than a form. |
+| **Backend** | NestJS, Spring Boot, Laravel — and Rust when a process has to hold something open. One response envelope for success and failure alike, **JSON-RPC 2.0** for MCP surfaces, **Server-Sent Events** and WebSockets for anything live. UUIDs in every public surface: a sequential key leaks table size and invites enumeration. |
+| **Systems — Rust** | **Tokio** and **Axum**, `sqlx` over SQLite with one migration set per feature, `portable-pty` for terminals that are real rather than emulated, `tower`/`tower-http` for middleware, `tracing` for structured logs. **Argon2** for passwords, SHA-256 and BLAKE3 for digests — a stolen database should yield a digest, not a usable token. |
+| **Data** | **PostgreSQL** by default: constraints, joins, transactions, and a recoverable cost when the model turns out wrong. **Redis** for what is genuinely ephemeral, **MongoDB** where documents are read whole and never joined, **Supabase** when the project justifies it, **SQLite** when the database belongs to one machine and travels with it. |
+| **Testing & quality** | **Vitest** and **Playwright**; `cargo test` with `wiremock` at the HTTP edges. **Mutation testing**, because a suite that stays green after you break the code was testing nothing. Clippy at `-D warnings` on two toolchains — a lint that fires on only one of them fires in CI instead of on your machine. |
+| **Delivery** | **Docker** multi-stage, non-root, configuration entirely from the environment so one artefact runs anywhere. **Nginx**, **Linux**, **GitLab CI** and **GitHub Actions**. Every gate reproducible locally with a single command, or it is a gate nobody runs until it blocks them. |
+| **AI & agents** | **Model Context Protocol** servers, agent CLIs driving real terminals, and workflows whose acceptance criteria are executed instead of reported. The interesting part was never the model — it is what refuses to advance when the output is wrong. |
+| **Cross-platform** | **Flutter**, **Electron**, **Tauri** — chosen by what the thing has to reach, not by preference. |
 
 ---
 

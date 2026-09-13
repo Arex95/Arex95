@@ -40,24 +40,36 @@ decided. It ships no components: the interface stays yours.
 
 ---
 
-### 🦀 Atlas — terminal orchestrator for humans and AI agents
+### 🦀 Atlas — several agents, one declared way of working
 
 [![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)](https://github.com/Arex95/atlas)
-[![license](https://img.shields.io/badge/license-MIT-555?style=flat-square)](https://github.com/Arex95/atlas/blob/main/LICENSE)
+[![license](https://img.shields.io/badge/license-PolyForm%20Noncommercial-555?style=flat-square)](https://github.com/Arex95/atlas/blob/main/LICENSE)
+[![docs](https://img.shields.io/badge/docs-arex95.github.io-FF6321?style=flat-square)](https://arex95.github.io/atlas/)
 
-PTY-backed terminals in the browser that AI agents can inhabit. **The terminal is
-the unit of interaction; the agent is a layer that plugs in** — not the other way
-round.
+An agent will tell you the task is done. **Atlas is built so that saying it is
+not enough.** Self-hosted and local-first: no account, no cloud, and nothing
+leaves the machine until you point it at a server you run yourself.
 
-- An **MCP server** (JSON-RPC 2.0) exposing 29 tools: projects, sessions, memory,
-  tasks, documents, skills, filesystem, global context.
-- **Project isolation** — an agent cannot read or write another project's
-  resources — with path-traversal protection on every filesystem endpoint.
-- **Shared context** — memory, skills and prompts an agent can reach across
-  sessions, so work survives the terminal that started it.
+- **Gates the runtime executes.** A node declares its acceptance criteria — a
+  command that must exit zero, a payload that must match a schema — and the run
+  does not advance until they pass. On failure the reason is injected back into
+  the agent's context and the node retries. Nothing is self-reported.
+- **The workflow is a file in the repository**, re-read on every run, so a
+  teammate who pulls your change is held to the same rules without registering
+  anything. One declaration, every developer's agents.
+- **48 MCP tools** over JSON-RPC 2.0 — sessions, terminals, memory, notes,
+  messaging, workflow runs, project map, issue tracker — each resolving its
+  caller from the credential it presented. No tool accepts an actor as an
+  argument, which is what keeps identity from being something a client asserts.
+- **Real PTYs and portable sessions.** A session records how to rehydrate
+  itself, so a machine that has never seen the repository clones it and picks up
+  where the last one left off.
 
-The problem it exists for: an agent that can write anything is not useful. One
-that works inside boundaries, against shared context, and leaves a trail is.
+> Where the boundary **is not**, written down rather than implied: tool scope
+> narrows what a workflow hands an agent, but it is not containment. The only
+> thing that contains an agent holding a real terminal is the operating system —
+> and the [trust model](https://arex95.github.io/atlas/concepts/trust-model) says
+> so on its own page.
 
 ---
 
